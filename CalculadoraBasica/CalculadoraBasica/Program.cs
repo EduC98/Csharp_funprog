@@ -32,16 +32,16 @@ namespace CalculadoraBasica
                 Console.Write("\n\tElija una opción: ");
                 try
                 {
-                    opcion = int.Parse(Console.ReadLine()!);
+                    opcion = int.Parse(Console.ReadLine());
 
                     //aqui verificamos si la opción es válida
                     if (opcion == 1 || opcion == 2 || opcion == 3 || opcion == 4)
                     {
                         Console.Write("Ingresa el primer número: ");
-                        numero1 = float.Parse(Console.ReadLine()!);
+                        numero1 = float.Parse(Console.ReadLine());
 
                         Console.Write("Ingresa el segundo número: ");
-                        numero2 = float.Parse(Console.ReadLine()!);
+                        numero2 = float.Parse(Console.ReadLine());
 
                         //Identificamos la opción
                         switch (opcion)
